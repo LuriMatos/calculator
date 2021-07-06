@@ -1,29 +1,19 @@
+:root {
+  --nav-size: 50px;
+  --border-radius: 8px;
+  --bg: rgb(58, 58, 58);
+}
+
 body {
   margin: 0;
-  background: linear-gradient(150deg, #c0c0c0 67%, #474747 100%);
 }
 
-.navbar {
-  background-color: rgb(58, 58, 58);
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 50px;
-
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.navbar-sel {
-  list-style-type: none;
-  background-color: paleturquoise;
+a {
+  text-decoration: none;
 }
-
-.navbar-icons {
-  background-color: palevioletred;
-
-}
-
-.icon-button {
-  background-color: peru;
-}
-
-/*background: linear-gradient(150deg, #c0c0c0 67%, #474747 100%);*/

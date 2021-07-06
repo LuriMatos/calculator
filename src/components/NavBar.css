@@ -1,0 +1,13 @@
+.navbar {
+    height: var(--nav-size);
+    background-color: var(--bg);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar-sel {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+  }

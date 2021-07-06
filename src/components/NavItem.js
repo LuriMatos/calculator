@@ -1,11 +1,13 @@
 import React from 'react';
-import { ReactComponent as LinkedIn } from '../img/linkedin.svg';
-import { ReactComponent as GitHub } from '../img/github.svg';
+import './NavItem.css';
 
 const NavItem = (props) => {
     return (
         <li className='navbar-icons'>
-            <a href='' className='icon-button'>
+            <a 
+            href={props.href} 
+            className='icon-button'
+            target="_blank">
                 {props.icon}
             </a>
         </li>

@@ -1,0 +1,32 @@
+.navbar-icons {
+    width: calc(var(--nav-size) * 0.9);
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar-icons:nth-of-type(1) {
+    margin-left: 15px;
+  }
+  
+  .icon-button {
+    --btn-size: calc(var(--nav-size) * 0.8);
+    width: var(--btn-size);
+    height: var(--btn-size);
+    background-color: #c0c0c0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 300ms;
+  }
+  
+  .icon-button svg {
+    width: 26px;
+    height: 26px;
+  }
+  
+  .icon-button:hover {
+    filter: brightness(1.4);
+  }
