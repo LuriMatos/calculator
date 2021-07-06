@@ -1,12 +1,14 @@
 import './App.css';
 import NavBar from './components/NavBar';
-import Button from './components/Button'
+import Calculator from './components/Calculator';
+import { evaluate } from 'mathjs';
 
 function App() {
+
   return (
     <div className='app'>
       <NavBar />
-      <Button symbol='aaaaaaaa'/>
+      <Calculator />
     </div>
   );
 }

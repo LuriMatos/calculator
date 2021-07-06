@@ -1,8 +1,15 @@
 .button {
-    padding-top: var(--nav-size);
-    width: 100%;
-    height: calc(100vh - var(--nav-size));
+    color: #E7E7E7;
+    font-size: 20px;
+    flex: 1;
+    height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
-  }
+    justify-content: center;
+    transition: 500ms;
+}
+
+.button:hover{
+    filter: brightness(1.4);
+    cursor: pointer;
+}

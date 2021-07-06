@@ -1,0 +1,21 @@
+.calculator-bg {
+    margin-top: var(--nav-size);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-area {
+    /* Verificar o erro do VH com Haack, pq não fica responsivo?*/
+    width: 300px;
+    border-radius: 7px;
+    background-color: #2B2D2F;
+}
+
+.button-wrapper {
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,23 @@
+.input-wrapper {
+    letter-spacing: 3px;
+    text-align: end;
+    padding: 0px 10px;
+    background-color: #e4e4e4;
+    width: 250px;
+    height: 110px;
+    margin: 20px 15px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculation {
+    flex: 1;
+}
+
+.result {
+    flex: 1;
+}
