@@ -1,4 +1,27 @@
 .app {
   text-align: center;
-  min-height: calc(100vh - var(--nav-size));
+}
+
+html, body, #root, .app {
+  height: 100%;
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.lightMode {
+  background-color: rgb(240, 240, 240);
+}
+
+.darkMode {
+  background-color: rgb(0, 0, 0);
+}
+
+.darkWord {
+  color: white;
 }

@@ -7,7 +7,8 @@ const NavItem = (props) => {
             <a 
             href={props.href} 
             className='icon-button'
-            target="_blank">
+            target="_blank"
+            rel="noopener noreferrer">
                 {props.icon}
             </a>
         </li>
