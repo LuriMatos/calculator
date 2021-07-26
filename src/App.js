@@ -1,5 +1,6 @@
 import './App.css';
 import React, { useState } from 'react';
+import { particleParamsDark, particleParamsLight } from './components/Particles/Particles';
 import NavBar from './components/NavBar/NavBar';
 import Toggle from './components/Toggle/Toggle';
 import Count from './components/Counter/Count';
@@ -10,52 +11,6 @@ import Gratitude from './components/Gratitude/Gratitude';
 function App() {
   const [calculations, setCalculations] = useState(0);
   const [darkToggle, setDarkToggle] = useState(false);
-
-const particleParamsLight = {
-  particles: {
-    number: {
-      value: 50,
-      density: {
-        enable: true,
-        value_area: 400
-      }
-    }, 
-    color: {
-      value: '#312f20'
-    },
-    line_linked: {
-      enable:true,
-      color: '#312f20'
-    },
-    move: {
-      enable: true,
-      speed: 2
-    }
-  }
-}
-
-const particleParamsDark = {
-  particles: {
-    number: {
-      value: 50,
-      density: {
-        enable: true,
-        value_area: 400
-      }
-    }, 
-    color: {
-      value: '#EBEDE6'
-    },
-    line_linked: {
-      enable:true,
-      color: '#EBEDE6'
-    },
-    move: {
-      enable: true,
-      speed: 2
-    }
-  }
-}
 
   return (
     <div 
