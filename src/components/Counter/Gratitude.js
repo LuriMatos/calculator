@@ -1,5 +1,5 @@
 import React from 'react';
-import './Gratitude.css';
+import './Count.css';
 
 const Gratitude = ({ darkToggle }) => {
     return (

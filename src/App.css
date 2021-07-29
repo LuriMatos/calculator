@@ -13,14 +13,22 @@
 
 .lightMode {
   background-color: rgb(240, 240, 240);
-  height: calc(100vh - var(--nav-size));
+  height: 100%;
 }
 
 .darkMode {
   background-color: rgb(0, 0, 0);
-  height: calc(100vh - var(--nav-size));
+  height: 100%;
 }
 
 .darkWord {
   color: white;
+}
+
+.centerize {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }

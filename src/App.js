@@ -6,7 +6,7 @@ import Toggle from './components/Toggle/Toggle';
 import Count from './components/Counter/Count';
 import Particles from 'react-particles-js';
 import Calculator from './components/Calculator/Calculator';
-import Gratitude from './components/Gratitude/Gratitude';
+import Gratitude from './components/Counter/Gratitude';
 
 function App() {
   const [calculations, setCalculations] = useState(0);
@@ -23,7 +23,7 @@ function App() {
         <Toggle 
           darkToggle={darkToggle} 
           changeDarkToggle={() => setDarkToggle(!darkToggle)} /> 
-        <div>
+        <div className='centerize'>
         <Count 
             darkToggle={darkToggle}
             calculations={calculations} 
