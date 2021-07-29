@@ -6,6 +6,8 @@ First project made with React.
 
 ---
 
-GitHub Pages: https://lurimatos.github.io/react-calculator/
+## GitHub Pages
 
----
+https://lurimatos.github.io/react-calculator/
+
+
