@@ -22,15 +22,17 @@ function App() {
         <NavBar />
         <Toggle 
           darkToggle={darkToggle} 
-          changeDarkToggle={() => setDarkToggle(!darkToggle)} />
+          changeDarkToggle={() => setDarkToggle(!darkToggle)} /> 
+        <div>
         <Count 
-          darkToggle={darkToggle}
-          calculations={calculations} 
-          setCalculations={setCalculations} />
-        <Calculator 
-          calculations={calculations} 
-          setCalculations={setCalculations} />
-        <Gratitude darkToggle={darkToggle}/>
+            darkToggle={darkToggle}
+            calculations={calculations} 
+            setCalculations={setCalculations} />
+          <Calculator 
+            calculations={calculations} 
+            setCalculations={setCalculations} />
+          <Gratitude darkToggle={darkToggle}/>
+        </div>
     </div>
   );
 }
