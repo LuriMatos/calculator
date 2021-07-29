@@ -1,4 +1,4 @@
-# Calculator made with React.js
+# Calculator
 
 **Version 1.0.0**
 
