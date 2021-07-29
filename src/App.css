@@ -13,10 +13,12 @@
 
 .lightMode {
   background-color: rgb(240, 240, 240);
+  height: calc(100vh - var(--nav-size));
 }
 
 .darkMode {
   background-color: rgb(0, 0, 0);
+  height: calc(100vh - var(--nav-size));
 }
 
 .darkWord {
