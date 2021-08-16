@@ -1,6 +1,6 @@
 # Calculator
 
-My first project made with React. 
+A project made with React. 
 
 **Version 1.0.0**
 
